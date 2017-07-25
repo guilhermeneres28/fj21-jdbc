@@ -7,7 +7,7 @@ import br.com.caelum.modelo.Contato;
 
 public class TestaInsere {
 	public static void main(String[] args) {
-		
+			
 		Contato c1 = new Contato();
 		
 		c1.setNome("Guilherme");
@@ -20,5 +20,7 @@ public class TestaInsere {
 		daoContato.adicionaContato(c1);
 		
 		System.out.println("O objeto foi gravado!");
+		
+		
 	}
 }
